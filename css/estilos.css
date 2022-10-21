@@ -1,0 +1,73 @@
+/*:root {*/
+	/*--color1: #531cb3;*/
+	/*--color2: #944bbb;*/
+	/*--color3: #aa7bc3;*/
+	/*--color4: #cc92c2;*/
+	/*--color5: #dba8ac;*/
+/*}*/
+:root {
+	--color1: #1d60b6;
+	--color2: #84bcda;
+	--color3: #ecc30b;
+	--color4: #f37748;
+	--color5: #d56062;
+}
+* {
+	padding: 0;
+	margin: 0;
+}
+.titulo {
+	color: var(--color3);
+	/*background-color: var(--color5);*/
+	text-align: center;
+	padding: 1rem;
+	text-shadow: 2px 2px 8px rgb(0,0,0); 	
+	font-size: 3rem;
+}
+header {
+	/*background-color: var(--color5);*/
+}
+.logoYtit {
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	background-image: url("../assets/rayo.webp"); 
+	background-color: #000;
+	z-index: -1;
+	opacity: 1;
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position: center;
+  padding: 4rem;
+
+}
+.logoYtit h1 {
+	background-color: rgba(0,0,0,0.1);
+}
+.nav-bar ul {
+	display: flex;
+	font-size: 1.5rem;
+	justify-content: space-around;
+	list-style:none;
+}
+.nav-bar>ul>li>a {
+	color: var(--color3);
+	/*background-color: var(--color5);*/
+	text-decoration: none;
+	padding: 1rem;
+}
+.nav-bar {
+	background-color: var(--color1);
+
+}
+.nav-bar>ul>li>a:hover {
+	color: var(--color4);
+	text-shadow: 2px 2px 8px #000;
+}
+.logo {
+	margin: 1rem;
+	width: 2rem;
+	height: 2rem;
+	
+}
+
