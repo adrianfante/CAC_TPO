@@ -71,3 +71,10 @@ header {
 	
 }
 
+
+/* ----------- piedepagina ------------------*/
+footer p {
+	text-align:center;
+	background-color: var(--color1);
+	color: var(--color3);
+}
