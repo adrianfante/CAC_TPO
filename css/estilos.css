@@ -27,10 +27,11 @@
 	font-size: 3rem;
 }
 .contact-info {
-	margin-top: 10rem;
 	background-color: var(--color1);
+	color: var(--color4);
 	display: flex;
 	justify-content: space-around;
+	padding:0.5rem;
 
 }
 header {
