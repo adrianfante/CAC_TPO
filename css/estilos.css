@@ -32,7 +32,10 @@
 	display: flex;
 	justify-content: space-around;
 	padding:0.5rem;
-
+	font-size:1.1rem;
+}
+.contact-info a:hover {
+	color:var(--color3);
 }
 header {
 	/*background-color: var(--color5);*/
@@ -108,6 +111,9 @@ footer p {
 .flex--center {
 	align-items: center;
 	justify-content center;
+}
+flex--wrap {
+	flex-wrap: wrap;
 }
 .mapa {
 	width: 100%;
@@ -237,7 +243,59 @@ textarea {
   box-shadow: 5px 5px 0px 0px var(--color1);
   background-color: var(--color4);
 }
+.lista li {
+	padding: 0.5rem;
+	color: var(--color5);
+	margin: 0.5rem;
+	font-size: 1.25rem;
+	border: 1px solid var(--color4);
+	/*text-shadow: 2px 2px 1px black;	*/
+}
+.peque li {
+	font-size: 1rem;
+}
+.lista li:hover {
+	color: var(--color3);
+	border: 1px solid var(--color3);
+	background: var(--color1);
+}
 
+.index {
+	background: url("../assets/tablero.jfif") no-repeat center ;
+	width:50%;
+	background-size: cover;
+	margin: 1rem;
+}
+.servicios {
+	background: url("../assets/instalando-toma.webp") no-repeat center ;
+	width:50%;
+	background-size: cover;
+	margin: 1rem;
+}
+.imagen1, .imagen2, .imagen3 {
+	width: 20rem;
+	height: 20rem;
+	background-size: cover;
+	margin: 1rem;
+}
+.imagen1 {
+	background: url("../assets/imagen_grande2.jpg") no-repeat center ;
+}
+.imagen2 {
+	background: url("../assets/herramientas.jfif") no-repeat center ;
+	margin: 0;
+}
+.imagen3 {
+	background: url("../assets/images.jfif") no-repeat center ;
+	margin: 0;
+}
+
+main {
+	min-height: calc(100vh - 19rem);
+}
+/*.listado {*/
+	/*min-width: 50%;*/
+/*}*/
 
 
 @media (min-width: 800px) {
