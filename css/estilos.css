@@ -31,8 +31,11 @@
 	color: var(--color4);
 	display: flex;
 	justify-content: space-around;
-	padding:0.5rem;
+	padding: 0.5rem;
 	font-size:1.1rem;
+}
+.contact-info a {
+	margin: .25rem;
 }
 .contact-info a:hover {
 	color:var(--color3);
@@ -112,9 +115,9 @@ footer p {
 	align-items: center;
 	justify-content center;
 }
-flex--wrap {
-	flex-wrap: wrap;
-}
+/*.flex--wrap {*/
+	/*flex-wrap: wrap;*/
+/*}*/
 .mapa {
 	width: 100%;
 	margin: 2rem;
@@ -297,17 +300,28 @@ main {
 	/*min-width: 50%;*/
 /*}*/
 
+@media screen and (max-width: 600px) and (min-width: 0px) {
+	.contact-info {
+		flex-direction: column;
+	}
+	.nav-bar ul{
+		flex-direction: column;
+	}
+	.container {
+		flex-direction: column;
+	}
+}
 
 @media (min-width: 800px) {
   .container {
-    padding-right: 2.5rem;
-    padding-left: 2.5rem;
+	padding-right: 2.5rem;
+	padding-left: 2.5rem;
   }
 }
 
 @media (min-width: 1200px) {
   .container {
-    padding-left: calc((100vw - 900px) / 2);
-    padding-right: calc((100vw - 900px) / 2);
+	padding-left: calc((100vw - 900px) / 2);
+	padding-right: calc((100vw - 900px) / 2);
   }
 }
