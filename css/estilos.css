@@ -13,6 +13,13 @@
 	--color4: #f37748;
 	--color5: #d56062;
 }
+/*:root {		*/
+	/*--color1: 	#b9d8c2;*/
+	/*--color2: 	#9ac2c9;*/
+	/*--color3: 	#8aa1b1;*/
+	/*--color4: 	#4a5043;*/
+	/*--color5: 	#ffcb47;*/
+/*}		*/
 * {
 	padding: 0;
 	margin: 0;
@@ -333,3 +340,96 @@ main {
 	padding-right: calc((100vw - 900px) / 2);
   }
 }
+
+
+
+
+/*:root {		*/
+	/*--color1: 	#69626d;*/
+	/*--color2: 	#bcaf9c;*/
+	/*--color3: 	#cbbeb3;*/
+	/*--color4: 	#d9bdc5;*/
+	/*--color5: 	#e8c7de;*/
+/*}		*/
+
+
+/*:root {		*/
+	/*--color1: 	#773344;*/
+	/*--color2: 	#e3b5a4;*/
+	/*--color3: 	#f5e9e2;*/
+	/*--color4: 	#0b0014;*/
+	/*--color5: 	#d44d5c;*/
+/*}		*/
+/*:root {		*/
+	/*--color1: 	#48639c;*/
+	/*--color2: 	#4c4c9d;*/
+	/*--color3: 	#712f79;*/
+	/*--color4: 	#976391;*/
+	/*--color5: 	#f7996e;*/
+/*}		*/
+
+/*:root {		*/
+	/*--color1: 	#99ddc8;*/
+	/*--color2: 	#95bf74;*/
+	/*--color3: 	#659b5e;*/
+	/*--color4: 	#556f44;*/
+	/*--color5: 	#283f3b;*/
+/*}		*/
+
+/*:root {		*/
+	/*--color1: 	#a7d49b;*/
+	/*--color2: 	#92ac86;*/
+	/*--color3: 	#696047;*/
+	/*--color4: 	#55251d;*/
+	/*--color5: 	#5a1807;*/
+/*}		*/
+/*:root {		*/
+	/*--color1: 	#4effef;*/
+	/*--color2: 	#73a6ad;*/
+	/*--color3: 	#9b97b2;*/
+	/*--color4: 	#d8a7ca;*/
+	/*--color5: 	#c7b8ea;*/
+/*}		*/
+
+/*:root {		*/
+	/*--color1: 	#0f5257;*/
+	/*--color2: 	#0b3142;*/
+	/*--color3: 	#9c92a3;*/
+	/*--color4: 	#c6b9cd;*/
+	/*--color5: 	#d6d3f0;*/
+/*}		*/
+/*:root {		*/
+	/*--color1: 	#f75c03;*/
+	/*--color2: 	#d90368;*/
+	/*--color3: 	#820263;*/
+	/*--color4: 	#291720;*/
+	/*--color5: 	#04a777;*/
+/*}		*/
+/*:root {		*/
+	/*--color1: 	#f75c03;*/
+	/*--color2: 	#d90368;*/
+	/*--color3: 	#820263;*/
+	/*--color4: 	#291720;*/
+	/*--color5: 	#04a777;*/
+/*}		*/
+/*:root {		*/
+	/*--color1: 	#fc440f;*/
+	/*--color2: 	#1effbc;*/
+	/*--color3: 	#7c9299;*/
+	/*--color4: 	#1f01b9;*/
+	/*--color5: 	#b4e33d;*/
+/*}		*/
+/*:root {		*/
+	/*--color1: 	#1be7ff;*/
+	/*--color2: 	#6eeb83;*/
+	/*--color3: 	#e4ff1a;*/
+	/*--color4: 	#e8aa14;*/
+	/*--color5: 	#ff5714;*/
+/*}		*/
+/*:root {		*/
+	/*--color1: 	#ceec97;*/
+	/*--color2: 	#f4b393;*/
+	/*--color3: 	#fc60a8;*/
+	/*--color4: 	#7a28cb;*/
+	/*--color5: 	#494368;*/
+/*}		*/

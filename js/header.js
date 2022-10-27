@@ -1,9 +1,10 @@
 const header = document.querySelector("header");
 const encabezado = `
             <div class="contact-info">
-                <a href="tel:+5492477465740"><i class="fa fa-phone" aria-hidden="true"></i>Tel:+54 9 2477 465740</a> 
-                <a href="https://www.google.com/maps/place/Chiclana+1142,+Pergamino,+Provincia+de+Buenos+Aires/@-33.8789497,-60.5709964,3a,75y,202.27h,90t/data=!3m6!1e1!3m4!1splrnHvXQk4FAYxYKMRgAxQ!2e0!7i13312!8i6656!4m5!3m4!1s0x95b9caaff3bd6e05:0x19b7ae18b8ff42ba!8m2!3d-33.8788995!4d-60.5711627" target=_blank><i class="fa-solid fa-map-location"></i> Chiclana 1146, Pergamino, Buenos Aires </a>  
-                <a href="https://wa.me/+5492477465740" target="_blank"><i class="fa-brands fa-whatsapp"></i>whatsapp: +54 9 2477 465740 </a>
+                <a href="tel:+5492477465740"><i class="fa fa-phone" aria-hidden="true"></i> Tel:+54 9 2477 465740</a> 
+                <a href="https://instagram.com/lrf_electricista/" target=_blank> <i class="fa fa-instagram" aria-hidden="true"></i> Instagram </a>
+                <!--a href="https://www.google.com/maps/place/Chiclana+1148,+Pergamino,+Provincia+de+Buenos+Aires/@-33.8789497,-60.5709964,3a,75y,202.27h,90t/data=!3m6!1e1!3m4!1splrnHvXQk4FAYxYKMRgAxQ!2e0!7i13312!8i6656!4m5!3m4!1s0x95b9caaff3bd6e05:0x19b7ae18b8ff42ba!8m2!3d-33.8788995!4d-60.5711627" target=_blank><i class="fa-solid fa-map-location"></i> Chiclana 1148, Pergamino, Buenos Aires </a-->  
+                <a href="https://wa.me/+5492477465740" target="_blank"><i class="fa-brands fa-whatsapp"></i> Whatsapp: +54 9 2477 465740 </a>
                 <a href="mailto:leo_2588@hotmail.com"> <i class="fa fa-envelope" aria-hidden="true"></i> leo_2588@hotmail.com </a>
             </div>
 		<div class="logoYtit">
