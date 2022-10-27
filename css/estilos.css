@@ -304,8 +304,16 @@ main {
 	.contact-info {
 		flex-direction: column;
 	}
+	.contact-info a {
+		margin: .5rem 2rem;
+		
+	}
 	.nav-bar ul{
 		flex-direction: column;
+	}
+	.nav-bar ul li {
+		margin: .5rem 2rem;
+
 	}
 	.container {
 		flex-direction: column;
