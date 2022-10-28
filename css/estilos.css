@@ -275,6 +275,7 @@ textarea {
 	width:50%;
 	background-size: cover;
 	margin: 1rem;
+	max-height: 20rem;
 }
 .servicios {
 	background: url("../assets/instalando-toma.webp") no-repeat center ;
