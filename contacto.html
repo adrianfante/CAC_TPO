@@ -9,7 +9,6 @@
 		<script type="text/javascript" src="js/floating-wpp.min.js"></script>
 		<link rel="stylesheet" href="css/floating-wpp.min.css">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
-
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 		<link rel="stylesheet" href="css/estilos.css">
 		<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap" rel="stylesheet">
@@ -24,24 +23,29 @@
 			<form  action="https://formspree.io/f/xvolpzez"
 					method="POST" class="formulario flex flex--column">
 				<div class="input-container">
-					<input class="input" type="text" id="nombre" name="nombre" placeholder="Nombre" required>
+					<input class="input" type="text" id="nombre" name="nombre" placeholder="Nombre" required data-tipo="nombre">
 					<label class="input-label" for="nombre">Nombre: </label>
+          <span class="input-message-error">Este campo no es valido</span>
 				</div>
 				<div class="input-container">
-					<input class="input" type="email" id="email" name="email" placeholder="email" required>
+					<input class="input" type="email" id="email" name="email" placeholder="email" required data-tipo="email">
 					<label  class="input-label" for="email">Email: </label>
+          <span class="input-message-error">Este campo no es valido</span>
 				</div>
 				<div class="input-container">
-					<input class="input" type="tel" id="telefono" name="telefono" placeholder="telefono" required>
+					<input class="input" type="tel" id="telefono" name="telefono" placeholder="telefono" required data-tipo="telefono">
 					<label  class="input-label" for="telefono">Teléfono: </label>
+          <span class="input-message-error">Este campo no es valido</span>
 				</div>
 				<div class="input-container">
-					<input class="input" type="text" id="asunto" name="asunto" placeholder="asunto" required>
+					<input class="input" type="text" id="asunto" name="asunto" placeholder="asunto" required data-tipo="asunto">
 					<label  class="input-label" for="asunto">Asunto: </label>
+          <span class="input-message-error">Este campo no es valido</span>
 				</div>
 				<div class="input-container">
-					<textarea class=" textarea" id="mensaje" name="mensaje" placeholder="Escriba aquí su mensaje"required></textarea>
+					<textarea class=" textarea" id="mensaje" name="mensaje" placeholder="Escriba aquí su mensaje" required data-tipo="mensaje"></textarea>
 					<label  class="textarea-label" for="mensaje">Mensaje: </label>
+          <span class="input-message-error">Este campo no es valido</span>
 					<button class="button" type="submit">Enviar</button>
 				</div>
 			</form>
@@ -53,5 +57,6 @@
 		<script type="text/javascript" src="./js/whatsapp.js"></script>
 		<script src="./js/header.js"></script>
 		<script src="./js/footer.js"></script>
+    <script src="./js/app.js" type="module"></script>
 	</body>
 </html>

@@ -192,6 +192,31 @@ textarea {
   transition: all 0.25s;
 }
 
+.input-container--invalid {
+  margin-bottom: 0.5rem;
+}
+
+.input-container--invalid .input {
+  border: 1px solid red;
+  border-radius: 7px;
+}
+
+.input-container--invalid .input-label {
+  color: red;
+}
+
+.input-message-error {
+  display: none;
+}
+
+.input-container--invalid .input-message-error {
+  color: red;
+  display: block;
+  margin-top: 0.5rem;
+  padding-left: 0.5rem;
+  z-index: 9999;
+}
+
 
 .textarea {
   box-sizing: border-box;
@@ -233,6 +258,28 @@ textarea {
   font-size: 0.875rem;
   top: -0.25rem;
   transition: all 0.25s;
+}
+.textarea-container--invalid {
+  margin-bottom: 0.5rem;
+}
+
+.textarea-container--invalid .textarea {
+  border: 1px solid red; 
+}
+
+.textarea-container--invalid .textarea-label {
+  color: red;
+}
+
+.textarea-mensagem-erro {
+  display: none;
+}
+
+.textarea-container--invalid .textarea-mensagem-erro {
+  display: block;
+  color: var(--warning-color);
+  margin-top: 0.5rem;
+  padding-left: 0.5rem;
 }
 .button {
   display: block;
